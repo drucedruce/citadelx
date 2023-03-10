@@ -5,27 +5,35 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
+}
+
+.navigation {
+  flex-basis: 60%;
 }
 
 .nav {
-  flex-basis: 50%;
-}
-
-.nav ul {
   width: 100%;
   display: flex;
   justify-content: space-around;
   color: white;
   list-style-type: none;
+  padding: 0;
 }
 
-.nav a {
+.nav__link {
+  font-family: "Inter", sans-serif;
   text-decoration: none;
   color: #999999;
+  transition: color 200ms ease-in-out;
 }
 
-.singin__btn {
+.nav__link:hover {
+  color: #fff;
+}
+
+.header__singin-btn {
   width: 90px;
   height: 30px;
   border: 0px;
@@ -33,7 +41,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(to right, #78ffc9, #f1ffbb);
+  background: linear-gradient(
+    100.26deg,
+    rgba(120, 255, 201, 0.8) 27.51%,
+    rgba(241, 255, 187, 0.8) 94.79%
+  );
   font-size: 14px;
   color: black;
   font-weight: 600;

@@ -1,19 +1,23 @@
 .main {
   width: 100%;
+  height: 480px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin-top: 90px;
+  align-items: flex-start;
+  margin-top: 190px;
+  overflow: hidden;
 }
 
 .main__title {
+  font-family: "Inter", sans-serif;
   font-size: 45px;
-  font-weight: bold;
+  font-weight: 400;
   color: #fff;
   line-height: 110%;
+  letter-spacing: -0.032em;
 }
 
-.main__title__gradient {
+.main__title_gradient {
   background: radial-gradient(
     54.12% 2446.16% at 54.12% 78.54%,
     #a3ffda 0%,
@@ -24,27 +28,37 @@
 }
 
 .main__disc {
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 120%;
-  font-weight: lighter;
+  letter-spacing: -0.032em;
+  font-weight: 300;
   color: #dbdbdb;
-  margin-bottom: 80px;
+  text-align: left;
 }
 
-.main__btn {
+.main-btn {
   display: inline-block;
   text-align: center;
   margin-right: 20px;
   line-height: 45px;
   width: 170px;
   height: 45px;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   color: #000;
   background: linear-gradient(96.78deg, #57ffbc 27.85%, #f1ffbb 91.16%);
   text-decoration: none;
   font-size: 14px;
+}
+
+.main__ourproj-btn {
+  border: 1px solid #a3ffda;
+  background: transparent;
+  color: #fff;
 }
 
 .main__image img {
