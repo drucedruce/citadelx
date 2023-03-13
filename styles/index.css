@@ -5,6 +5,11 @@
 @import url(./advantages.css);
 @import url(./learn-more.css);
 @import url(./our-prod.css);
+@import url(./order-demo.css);
+@import url(./services.css);
+@import url(./values.css);
+@import url(./contact-us.css);
+@import url(./footer.css);
 
 * {
   font-family: "Roboto", sans-serif;

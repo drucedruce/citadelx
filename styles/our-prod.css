@@ -1,7 +1,21 @@
+.our-prod__title {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.022em;
+  text-align: center;
+  color: #000;
+  margin: 0;
+  padding: 70px 0 50px 0;
+}
+
 .our-prod {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
 }
 
 .prod-cadrs {
@@ -10,5 +24,49 @@
   background: #fff;
   border-radius: 5px;
   margin: 8px;
-  padding: 20px 0 0 20px;
+  padding: 20px;
+}
+
+.prod-cadrs__img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.prod-cadrs__title {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: -0.022em;
+  color: #1e1e1e;
+  margin-bottom: 10px;
+}
+
+.prod-cadrs__disc {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.011em;
+  color: #727272;
+  margin-bottom: 32px;
+}
+
+.prod-cadrs__link {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.011em;
+  color: #57f3b4;
+  justify-self: end;
+}
+.our-prod__title_gradient {
+  background: linear-gradient(89.06deg, #7bffc6 38.82%, #3fbaff 98.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.prod-cadrs__icon {
+  width: 7px;
+  height: 7px;
+  margin-left: 3px;
 }

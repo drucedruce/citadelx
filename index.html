@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/index.css" />
     <title>CitadelliX</title>
@@ -70,6 +74,9 @@
         </div>
       </div>
     </section>
+
+    <!-- Секция с логотипами -->
+
     <section class="section-logo">
       <div class="container">
         <div class="logo-block">
@@ -107,9 +114,11 @@
       </div>
     </section>
 
+    <!-- Секция приемуществ -->
+
     <section class="section-white">
       <div class="container">
-        <div class="advantages">
+        <div class="advantages" id="#advantages">
           <h2 class="title advantages__title">
             Мы - это <span class="advantages__title_gradient">CitadelliX</span>
           </h2>
@@ -207,6 +216,9 @@
         </div>
       </div>
     </section>
+
+    <!-- Секция "Узнать больше" -->
+
     <section>
       <div class="container">
         <div class="learn-more">
@@ -228,102 +240,428 @@
 
     <!-- Секция "Наши продукты" -->
 
-    <section>
+    <section class="section-white">
       <div class="container">
-        <h2 class="title">Наши продукты</h2>
+        <h2 class="our-prod__title">
+          Наши <span class="our-prod__title_gradient">продукты</span>
+        </h2>
         <div class="our-prod">
           <div class="prod-cadrs">
-            <img src="./images/our-prod/our_prod_img_01.svg" alt="" />
-            <h3>Встроенный обмен</h3>
-            <p>
+            <img
+              class="prod-cadrs__img"
+              src="./images/our-prod/our_prod_img_01.svg"
+              alt=""
+            />
+            <h3 class="prod-cadrs__title">Встроенный обмен</h3>
+            <p class="prod-cadrs__disc">
               Кроме приема платежей, наш шлюз <br />
               позволяет вам обменивать криптовалюты <br />
               прямо в вашем кошельке.
             </p>
-            <a href="#">Узнать больше</a>
+            <a class="prod-cadrs__link" href="#"
+              >Узнать больше
+              <img
+                class="prod-cadrs__icon"
+                src="./images/our-prod/our_prod_img_10.svg"
+                alt=""
+              />
+            </a>
           </div>
+
           <div class="prod-cadrs">
-            <img src="./images/our-prod/our_prod_img_02.svg" alt="" />
-            <h3>Криптообработка</h3>
-            <p>
+            <img
+              class="prod-cadrs__img"
+              src="./images/our-prod/our_prod_img_02.svg"
+              alt=""
+            />
+            <h3 class="prod-cadrs__title">Криптообработка</h3>
+            <p class="prod-cadrs__disc">
               Мы предлагаем надежную и безопасную <br />
               инфраструктуру криптоплатежей для <br />
               предприятий и частных лиц с простым <br />
               процессом интеграции.
             </p>
-            <a href="#">Узнать больше</a>
+            <a class="prod-cadrs__link" href="#"
+              >Узнать больше<img
+                class="prod-cadrs__icon"
+                src="./images/our-prod/our_prod_img_10.svg"
+                alt=""
+            /></a>
           </div>
+
           <div class="prod-cadrs">
-            <img src="./images/our-prod/our_prod_img_03.svg" alt="" />
-            <h3>Платежный шлюз</h3>
-            <p>
+            <img
+              class="prod-cadrs__img"
+              src="./images/our-prod/our_prod_img_03.svg"
+              alt=""
+            />
+            <h3 class="prod-cadrs__title">Платежный шлюз</h3>
+            <p class="prod-cadrs__disc">
               Наша полностью интегрированная <br />
               инфраструктура позволяет вам принимать <br />
               криптоплатежи с легкостью <br />
               и безопасностью.
             </p>
-            <a href="#">Узнать больше</a>
+            <a class="prod-cadrs__link" href="#"
+              >Узнать больше
+              <img
+                class="prod-cadrs__icon"
+                src="./images/our-prod/our_prod_img_10.svg"
+                alt=""
+            /></a>
           </div>
+
           <div class="prod-cadrs">
-            <img src="./images/our-prod/our_prod_img_04.svg" alt="" />
-            <h3>Пожертвования</h3>
-            <p>
+            <img
+              class="prod-cadrs__img"
+              src="./images/our-prod/our_prod_img_04.svg"
+              alt=""
+            />
+            <h3 class="prod-cadrs__title">Пожертвования</h3>
+            <p class="prod-cadrs__disc">
               Принимайте пожертвования от своих <br />
               патронов в виде криптовалюты, облегчая <br />
               им поддержку вашего дела.
             </p>
-            <a href="#">Узнать больше</a>
+            <a class="prod-cadrs__link" href="#"
+              >Узнать больше
+              <img
+                class="prod-cadrs__icon"
+                src="./images/our-prod/our_prod_img_10.svg"
+                alt=""
+            /></a>
           </div>
+
           <div class="prod-cadrs">
-            <img src="./images/our-prod/our_prod_img_05.svg" alt="" />
-            <h3>Плагины</h3>
-            <p>
+            <img
+              class="prod-cadrs__img"
+              src="./images/our-prod/our_prod_img_05.svg"
+              alt=""
+            />
+            <h3 class="prod-cadrs__title">Плагины</h3>
+            <p class="prod-cadrs__disc">
               CitadelliX обеспечивает плавную интеграцию <br />
               вашей CRM-системы с технологией <br />
               блокчейн.
             </p>
-            <a href="#">Узнать больше</a>
+            <a class="prod-cadrs__link" href="#"
+              >Узнать больше
+              <img
+                class="prod-cadrs__icon"
+                src="./images/our-prod/our_prod_img_10.svg"
+                alt=""
+            /></a>
           </div>
+
           <div class="prod-cadrs">
-            <img src="./images/our-prod/our_prod_img_06.svg" alt="" />
-            <h3>Массовые платежи</h3>
-            <p>
+            <img
+              class="prod-cadrs__img"
+              src="./images/our-prod/our_prod_img_06.svg"
+              alt=""
+            />
+            <h3 class="prod-cadrs__title">Массовые платежи</h3>
+            <p class="prod-cadrs__disc">
               Производите по несколько платежей из <br />
               одного хранилища в рамках одной <br />
               транзакции.
             </p>
-            <a href="#">Узнать больше</a>
+            <a class="prod-cadrs__link" href="#"
+              >Узнать больше
+              <img
+                class="prod-cadrs__icon"
+                src="./images/our-prod/our_prod_img_10.svg"
+                alt=""
+            /></a>
           </div>
+
           <div class="prod-cadrs">
-            <img src="./images/our-prod/our_prod_img_07.svg" alt="" />
-            <h3>Обработка фиата</h3>
-            <p>
+            <img
+              class="prod-cadrs__img"
+              src="./images/our-prod/our_prod_img_07.svg"
+              alt=""
+            />
+            <h3 class="prod-cadrs__title">Обработка фиата</h3>
+            <p class="prod-cadrs__disc">
               Воспользуйтесь гибкими вариантами <br />
               оплаты, в том числе традиционной валютой.
             </p>
-            <a href="#">Узнать больше</a>
+            <a class="prod-cadrs__link" href="#"
+              >Узнать больше
+              <img
+                class="prod-cadrs__icon"
+                src="./images/our-prod/our_prod_img_10.svg"
+                alt=""
+            /></a>
           </div>
+
           <div class="prod-cadrs">
-            <img src="./images/our-prod/our_prod_img_08.svg" alt="" />
-            <h3>Обмен криптовалюта-фиат</h3>
-            <p>
+            <img
+              class="prod-cadrs__img"
+              src="./images/our-prod/our_prod_img_08.svg"
+              alt=""
+            />
+            <h3 class="prod-cadrs__title">Обмен криптовалюта-фиат</h3>
+            <p class="prod-cadrs__disc">
               Обменивайте, продавайте и покупайте фиат <br />
               с доступом к более чем 150 криптовалютам
             </p>
-            <a href="#">Узнать больше</a>
+            <a class="prod-cadrs__link" href="#"
+              >Узнать больше
+              <img
+                class="prod-cadrs__icon"
+                src="./images/our-prod/our_prod_img_10.svg"
+                alt=""
+            /></a>
           </div>
+
           <div class="prod-cadrs">
-            <img src="./images/our-prod/our_prod_img_09.svg" alt="" />
-            <h3>Обмен Crypto-to-crypto</h3>
-            <p>
+            <img
+              class="prod-cadrs__img"
+              src="./images/our-prod/our_prod_img_09.svg"
+              alt=""
+            />
+            <h3 class="prod-cadrs__title">Обмен Crypto-to-crypto</h3>
+            <p class="prod-cadrs__disc">
               Попробуйте быстрый, безопасный <br />
               и неограниченный обмен криптовалютами <br />
               с комфортной комиссией.
             </p>
-            <a href="#">Узнать больше</a>
+            <a class="prod-cadrs__link" href="#"
+              >Узнать больше
+              <img
+                class="prod-cadrs__icon"
+                src="./images/our-prod/our_prod_img_10.svg"
+                alt=""
+            /></a>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Секция "Демонстация" -->
+
+    <section>
+      <div class="container">
+        <div class="order-demo">
+          <div class="order-demo__text">
+            <h2 class="order-demo__title">
+              Закажите демонстрацию <br />
+              <span class="order-demo__title_gradient">
+                интересующего <br />
+                вас продукта
+              </span>
+            </h2>
+            <p class="order-demo__disc">
+              Мы детально объясним все особенности <br />
+              и покажем продукт в действии
+            </p>
+            <a class="order-demo__btn" href="#">Получить демо</a>
+          </div>
+          <img
+            class="order-demo__img"
+            src="./images/order-demo/odrer-demo.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция Услуги -->
+
+    <section class="section-white">
+      <div class="container">
+        <div class="services">
+          <div class="services__item">
+            <img
+              class="services__img"
+              src="./images/services/services_img_01.png"
+              alt=""
+            />
+            <h3 class="services__title">Обменная платформа</h3>
+            <p class="services__disc">
+              Покупайте, продавайте и обменивайте более 30 <br />
+              криптовалют или фиатных денег прямо в своем <br />
+              личном кабинете
+            </p>
+          </div>
+          <div class="services__item">
+            <img
+              class="services__img"
+              src="./images/services/services_img_02.png"
+              alt=""
+            />
+            <h3 class="services__title">Разработка блокчейна</h3>
+            <p class="services__disc">
+              Мы знаем, как создать устойчивую <br />
+              и высокоэффективную блокчейн-архитектуру, <br />
+              исходя из требований вашего бизнеса и рынка
+            </p>
+          </div>
+          <div class="services__item">
+            <img
+              class="services__img"
+              src="./images/services/services_img_03.png"
+              alt=""
+            />
+            <h3 class="services__title">Токенизация</h3>
+            <p class="services__disc">
+              Технология на базе блокчейна для преобразования <br />
+              права собственности на любой цифровой <br />
+              или физический предмет в токены
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция "Ценности" -->
+
+    <section>
+      <div class="container">
+        <div class="values">
+          <h3 class="values__title">
+            Наши <span class="values__title_gradient">ценности</span>
+          </h3>
+          <div class="values-cards">
+            <div class="values-cadrs__item">
+              <img
+                src="./images/values/values_img_01.svg"
+                alt=""
+                class="values-cards__img"
+              />
+              <h3 class="values-cards__title">Профессионализм</h3>
+              <p class="values-cards__disc">
+                Мы собрали команду опытных <br />
+                профессионалов, чтобы обеспечить <br />
+                поставку первоклассных продуктов, <br />
+                адаптированных к потребностям <br />
+                вашего бизнеса.
+              </p>
+            </div>
+
+            <div class="values-cards__item">
+              <img
+                src="./images/values/values_img_02.svg"
+                alt=""
+                class="values-cards__img"
+              />
+              <h3 class="values-cards__title">Ответственность</h3>
+              <p class="values-cards__disc">
+                Наши инструменты и услуги <br />
+                разработаны таким образом, <br />
+                чтобы помочь вам свободно <br />
+                ориентироваться в технологиях, <br />
+                конкуренции, производственных <br />
+                и нормативных реалиях.
+              </p>
+            </div>
+
+            <div class="values-cards__item">
+              <img
+                src="./images/values/values_img_03.svg"
+                alt=""
+                class="values__img"
+              />
+              <h3 class="values-cards__title">Масштабируемость</h3>
+              <p class="values-cards__disc">
+                Создавая оригинальные решения для <br />
+                различных моделей предприятий, мы <br />
+                помогаем вам преодолеть проблемы <br />
+                роста вашего бизнеса и <br />
+                удовлетворить постоянно <br />
+                меняющиеся требования рынка.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-us__background">
+      <div class="container">
+        <div class="contact-us" id="contact-us">
+          <div class="contact-text">
+            <h2 class="contact-text__title">Свяжитесь с нами</h2>
+            <p class="contact-text__disc">
+              Готовы прокачать свой бизнес <br />
+              с помощью блокчейна нового <br />
+              поколения и финтех-решений?
+            </p>
+            <div class="sochil-media">
+              <a href="#">
+                <img src="./images/contact-us/facebook_img.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="./images/contact-us/telegramm__img.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="./images/contact-us/whatsapp__img.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="./images/contact-us/youtube__img.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div>
+            <form class="form" action="">
+              <h3 class="form__title">
+                <span class="form__title_bold">Заполните форму</span> и ваш
+                персональный менеджер <br />
+                свяжется с вами в ближайшее время
+              </h3>
+              <input class="form__input" type="text" placeholder="Name" />
+              <input
+                class="form__input"
+                type="phone"
+                placeholder="+7 999 000 00 00"
+              />
+              <input
+                class="form__input"
+                type="text"
+                placeholder="Ваше сообщение"
+              />
+              <button class="form__btn">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <a class="footer__logo" href="#"
+            ><img src="./images/CitadelliX__logo.svg" alt=""
+          /></a>
+          <nav class="footer-nav">
+            <ul class="footer-nav__list">
+              <h3 class="footer-nav__title">О нас</h3>
+              <li class="footer-nav__item">Преимущества</li>
+              <li class="footer-nav__item">Компании</li>
+              <li class="footer-nav__item">Партнеры</li>
+            </ul>
+
+            <ul class="footer-nav__list">
+              <h3 class="footer-nav__title">Решения</h3>
+              <li class="footer-nav__item">Продукты</li>
+              <li class="footer-nav__item">Услуги</li>
+            </ul>
+
+            <ul class="footer-nav__list">
+              <h3 class="footer-nav__title">Вакансии</h3>
+              <li class="footer-nav__item">Каталог 1</li>
+              <li class="footer-nav__item">Каталог 2</li>
+              <li class="footer-nav__item">Каталог 3</li>
+            </ul>
+          </nav>
+        </div>
+        <img src="./images/footer_line.svg" alt="" />
+        <div class="info">
+          <a class="info__link" href="#">Политика конфиденциальности</a>
+          <a class="info__link" href="#">Разработка сайта</a>
+          <a class="info__link" href="#"
+            >2021 © CitadelliX. Все права защищены</a
+          >
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
