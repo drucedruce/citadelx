@@ -3,13 +3,9 @@
 }
 
 .values__title {
-  font-family: "Inter", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 150%;
-  letter-spacing: -0.022em;
   text-align: center;
   color: #fff;
+  margin: 0;
   margin-bottom: 50px;
 }
 
@@ -17,8 +13,6 @@
   background: linear-gradient(90.34deg, #57ffbb 46.64%, #f1ffbb 92.43%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
 }
 
 .values-cards {

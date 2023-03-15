@@ -2,33 +2,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 75px 0px;
+  padding: 70px 0px;
 }
 
 .order-demo__title {
-  font-family: "Inter", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
   line-height: 120%;
-  letter-spacing: -0.022em;
+  text-align: left;
   color: #fff;
   margin: 0;
 }
 
 .order-demo__title_gradient {
+  line-height: 120%;
   background: linear-gradient(90.85deg, #f1ffbb 4.36%, #57ffbb 85.08%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
 }
 
-.order-demo__disc {
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 120%;
-  letter-spacing: -0.032em;
-  color: #fff;
+.order-demo__description {
+  margin-bottom: 60px;
 }
 
 .order-demo__btn {
@@ -45,5 +37,6 @@
 }
 
 .order-demo__img {
-  width: 500px;
+  width: 550px;
+  height: 325px;
 }

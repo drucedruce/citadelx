@@ -1,13 +1,6 @@
 .advantages {
-  padding-top: 70px;
-  padding-bottom: 60px;
+  padding: 70px 0;
 }
-
-.advantages__disc {
-  margin-bottom: 44px;
-  color: #1e1e1e;
-}
-
 .advantages__title_gradient {
   background: radial-gradient(
     54.12% 2446.16% at 54.12% 78.54%,
@@ -16,6 +9,12 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.advantages__description {
+  margin-bottom: 44px;
+  color: #1e1e1e;
+  text-align: center;
 }
 
 .advantages-cards {
@@ -40,7 +39,7 @@
   bottom: 10px;
 }
 
-.advantages-cards__disc {
+.advantages-cards__desc {
   position: absolute;
   top: calc(50% - 24px);
   left: 80px;

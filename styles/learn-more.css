@@ -1,19 +1,19 @@
 .learn-more {
-  margin-top: 60px;
+  padding: 70px 0;
 }
 
 .learn-more__title {
-  font-family: "Inter", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
-  line-height: 150%;
-  letter-spacing: -0.022em;
+  line-height: 120%;
   text-align: center;
   color: #fff;
-  margin-top: 14px;
 }
 
 .learn-more__title_gradient {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 120%;
   background: radial-gradient(
     54.12% 2446.16% at 54.12% 78.54%,
     #a3ffda 0%,
@@ -24,9 +24,6 @@
 }
 
 .learn-more__disc {
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 120%;
   text-align: center;
   letter-spacing: -0.032em;
   color: #fff;
@@ -46,5 +43,4 @@
   text-align: center;
   line-height: 45px;
   margin: 0 auto;
-  margin-bottom: 60px;
 }

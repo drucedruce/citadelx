@@ -27,8 +27,7 @@
   color: #1e1e1e;
 }
 
-.services__disc {
-  font-style: normal;
+.services__description {
   font-weight: 400;
   font-size: 12px;
   line-height: 120%;

@@ -1,4 +1,4 @@
-.contact-us__background {
+.section-bg-contact-us {
   background: linear-gradient(98.56deg, #f5f5f5 0%, #57ffbb 100%);
 }
 
@@ -9,27 +9,25 @@
   padding: 70px 0;
 }
 
-.contact-text {
-  height: 440px;
-}
-
 .contact-text__title {
-  font-family: "Inter", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 150%;
-  letter-spacing: -0.022em;
   color: #000;
   margin: 0;
 }
 
-.contact-text__disc {
+.contact-text__description {
   font-family: "Inter";
   font-weight: 400;
   font-size: 24px;
   line-height: 120%;
   letter-spacing: -0.022em;
   color: #2e2d2d;
+}
+
+.social-media__link {
+  text-decoration: none;
+}
+.social-media__link:not(:first-child) {
+  margin-left: 10px;
 }
 
 .form {
